@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: rgba(0, 138, 119, 0.658);
+}
+.main-nav {
+    margin-top: 0;
+    list-style: none;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+body {
+    background-color:whitesmoke;
+    margin: 0;
+}
+footer {
+    background-color: deeppink;
+}
