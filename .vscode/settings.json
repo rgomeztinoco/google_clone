@@ -16,6 +16,5 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.remoteColor": "#b32b00",
-  "liveServer.settings.CustomBrowser": "chrome",
-  "liveServer.settings.NoBrowser": true
+  "liveServer.settings.useBrowserPreview": true
 }

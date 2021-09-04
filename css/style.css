@@ -10,7 +10,7 @@ html {
   font-size: 62.5%;
 }
 header {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color );
   width: 80vw;
   margin: 0 auto;
   margin-top: 2.5%;
