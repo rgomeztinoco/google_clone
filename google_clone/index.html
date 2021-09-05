@@ -1,24 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Clon de Google. Proyecto practico del curso definitivo de HTML y CSS en Platzi. Hecho por Ricardo Gómez" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Clon de Google. Proyecto practico del curso definitivo de HTML y CSS en Platzi. Hecho por Ricardo Gómez"
+    />
     <meta name="robots" content="index, follow" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Clone</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Imagenes</a></li>
-                <li><a href="">Icon</a></li>
-                <li><a href="">Photo</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav-right">
+          <li class="nav-right__text-link"><a href="">Gmail</a></li>
+          <li class="nav-right__text-link"><a href="">Imágenes</a></li>
+          <li>
+            <a href=""><span class="material-icons"> apps </span></a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="https://lh3.googleusercontent.com/ogw/ADea4I7sobB13cibVL0ir3jL9_CMuqFqPB7VQY5Swi30=s32-c-mo"
+                alt="Imagen de Perfil"
+                srcset="
+                  https://lh3.googleusercontent.com/ogw/ADea4I7sobB13cibVL0ir3jL9_CMuqFqPB7VQY5Swi30=s32-c-mo 1x,
+                  https://lh3.googleusercontent.com/ogw/ADea4I7sobB13cibVL0ir3jL9_CMuqFqPB7VQY5Swi30=s64-c-mo 2x
+                "
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <main>
+      <section class="main-logo">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Logo de Google"/>
+      </section>
+      <section class="main-input">
+        <div>
+          <span class="material-icons"> search </span>
+          <input type="text" name="" id="" />
+          <a href=""><span class="material-icons"> mic </span></a>
+        </div>
+      </section>
+      <section class="main-buttons">
+        <div><button>Buscar con Google</button></div>
+        <div><button>Me siento con suerte</button></div>
+      </section>
+    </main>
+  </body>
 </html>
