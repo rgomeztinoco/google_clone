@@ -3,12 +3,15 @@
   margin: 0;
   padding: 0;
 }
+html {
+  font-size: 62.5%;
+}
 a {
   text-decoration: none;
   cursor: pointer;
 }
-html {
-  font-size: 62.5%;
+a:hover {
+  text-decoration: underline;
 }
 body {
   font-size: 1.3rem;
@@ -21,36 +24,51 @@ header {
 header nav {
   display: flex;
   justify-content: flex-end;
+  padding: 6px;
 }
 header nav .nav-right {
   width: 250px;
-  height: 64px;
+  height: 48px;
   display: flex;
   list-style: none;
   justify-content: right;
   align-items: center;
+  padding-right: 8px;
 }
 header nav ul li .material-icons {
-  margin-left: 12px;
+  margin-right: 2px;
+  margin-left: 5px;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
 }
 nav .nav-right a {
-  margin-right: 15px;
   color: black;
 }
 nav .nav-right .nav-right__text-link {
-  margin-bottom: 4px;
+  padding-right: 15px;
 }
 nav .nav-right img {
+  height: 40px;
+  width: 40px;
+  padding: 4px;
   border-radius: 50%;
   margin-left: 5px;
-  margin-right: 3px;
+  margin-right: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-right li a .material-icons:hover,.nav-right li a img:hover {
+  background-color: rgba(60,64,67,0.08);
+  border-radius: 50%;
 }
 .material-icons {
+  font-size: 2.4rem;
   color: rgba(0, 0, 0, 0.54);
 }
-/* .material-icons .md-dark .md-inactive {
-  color: rgba(0, 0, 0, 0.26);
-} */
+.md-inactive {
+  color: #9aa0a6;
+}
 main .main-logo {
   display: flex;
   flex-direction: column;
@@ -67,6 +85,40 @@ main .main-logo img {
 }
 main .main-input {
   max-width: 584px;
+  min-width: 360px;
   width: auto;
-  margin: 0 auto;
+  padding: 20px;
+  margin: auto;
+}
+main .main-input-container {
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+  height: 46px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8px 0 14px;
+}
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+main .main-input input {
+  background-color: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  height: 34px;
+  font-size: 1.6rem;
+  display: flex;
+  flex: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .main-input span {
+  height: 20px;
+  width: 20px;
+  font-size: 2rem;
+  margin-right: 13px;
+  margin-bottom: 1px;
 }
